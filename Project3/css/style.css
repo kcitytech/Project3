@@ -1,0 +1,68 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: black;
+  margin-left: 20px;
+}
+
+header {
+   background-color: gray;
+   border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+
+  text-align: center;
+  background-color: lightblue;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+p {
+  margin: 10px;
+}
+
+img {
+
+  margin:10px;
+  border-radius: 10px;
+  width:90%;
+  max-width: 300px;
+  height:50%;
+  margin: 5px;
+}
+
+h2 {
+
+  margin: 20px;
+}
+
+.navbar {
+  background-color: lightgray;
+  border-radius: 5px;
+  font-size: 1.5em;
+  margin-right: 10px;
+  padding: 4px;
+  font-family: "Menlo";
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-text {
+
+  font-size: 1.2em;
+}

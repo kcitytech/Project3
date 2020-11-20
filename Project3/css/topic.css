@@ -1,0 +1,37 @@
+.lovelace {
+
+ text-shadow: 2px 2px 8px #000000;
+}
+
+p {
+font-family: 'Rubik', sans-serif;
+}
+
+::selection {
+ color: white;
+ background: blue;
+}
+
+.lovelace-image {
+
+  opacity: 0.6;
+  animation-name: loading;
+  animation-duration: 2s;
+}
+
+.lovelace-image:hover {
+
+  opacity: 1.0;
+  max-width: 35%;
+}
+
+@keyframes loading {
+ from {
+   filter: sepia(100%);
+   max-width: 60%;
+ }
+ to {
+   filter: sepia(100%);
+   max-width: auto;
+ }
+}

@@ -1,0 +1,23 @@
+body {
+  
+  background-image: url("../img/snow.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+article {
+  
+  color: white;
+  background-color: gray;
+  border-radius: 4px;
+}
+
+.welcome-statement {
+  
+  font-size: 4em;
+  background: linear-gradient(black, white);
+  font-family: 'Roboto', sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

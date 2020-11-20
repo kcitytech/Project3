@@ -1,0 +1,29 @@
+html{
+
+  min-width: 320px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: auto;
+}
+
+body, header, article, aside, footer, p, section, nav, a {
+
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+a {
+
+  border: none;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  height: 100%;
+  width: 100%;
+}
